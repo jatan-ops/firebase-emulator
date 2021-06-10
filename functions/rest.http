@@ -1,0 +1,16 @@
+GET http://localhost:5001/fir-functions-emulator/us-central1/api
+
+###
+POST https://us-central1-fir-functions-emulator.cloudfunctions.net/api
+Content-Type: application/json
+
+{
+    "name":"Jatan",
+    "college":"IIT"
+}
+
+###
+DELETE https://us-central1-fir-functions-emulator.cloudfunctions.net/api
+
+###
+PUT https://us-central1-fir-functions-emulator.cloudfunctions.net/api
